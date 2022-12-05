@@ -47,7 +47,7 @@ Filters can be quantized using the inbuilt quantization function in the filter d
 
 The following Overlay is created for FIR FILTER Implementation in Vivado. The MATLAB generted FILTER co-efficients are inserted in the FIR Compiler IP, with following changes made in it.
 
-<img src="fig11.PNG" width="700">
+<img src="Fig11.PNG" width="1000">
 
 Under the Channel Specification tab you will need to edit the Hardware Oversampling Specification section:
 a. Decide the appropriate sampling frequency for the audio file.
