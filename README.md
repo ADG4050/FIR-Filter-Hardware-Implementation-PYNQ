@@ -26,7 +26,7 @@ The filter can also be exported as Matlab code by clicking File → Generate Mat
 <img src="fig2.PNG" width="600">
 <img src="fig3.PNG" width="600">
 
-##Filtering a Noisy Audio File
+## Filtering a Noisy Audio File
 
 A noisy file can be filtered using this MATLAB FILTER DESIGNER function. Noisy File "speech16.wav" is here restored using the Filter Designer.
 
@@ -36,14 +36,14 @@ A noisy file can be filtered using this MATLAB FILTER DESIGNER function. Noisy F
 <img src="fig7.PNG" width="600">
 <img src="fig8.PNG" width="600">
 
-##Quantizing of Filter Co-efficients and exporting it.
+## Quantizing of Filter Co-efficients and exporting it.
 
 Filters can be quantized using the inbuilt quantization function in the filter designer. Once Quantized the co-efficients are exported for Hardware Implementation
 
 <img src="fig9.PNG" width="600">
 <img src="fig10.PNG" width="600">
 
-##FIR FILTER OVERLAY EDIT IN VIVADO
+## FIR FILTER OVERLAY EDIT IN VIVADO
 
 The following Overlay is created for FIR FILTER Implementation in Vivado. The MATLAB generted FILTER co-efficients are inserted in the FIR Compiler IP, with following changes made in it.
 
@@ -62,7 +62,7 @@ c. Set the output as 32 bit and select the Non Symmetric Rounding Up rounding mo
 
 Finally the .bit and .hwh file are exported using the Command file for PYNQ Implementation
 
-##PYNQ IMPLEMENTATION
+## PYNQ IMPLEMENTATION
 
 The .bit and .hwh are uploaded in the Jupyter Network framework available through PYNQ - Z2 & the Hardware Implementation is performed.
 
